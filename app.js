@@ -33,7 +33,7 @@ app.use(bodyParser.json());
 
 app.use(
   fileupload({
-    useTempFile: true,
+    useTempFiles: true,
     tempFileDir: "/tmp/",
   }),
 );
