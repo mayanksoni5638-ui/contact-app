@@ -1,6 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "backend app",
   "keywords": ["backend", "api"],
   "license": "ISC",

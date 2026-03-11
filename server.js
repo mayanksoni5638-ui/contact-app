@@ -1,6 +1,8 @@
-const http = require("http");
-const app = require("./app");
+import http from "http";
+import app from "./app.js";
+
 const server = http.createServer(app);
+
 server.listen(3000, () => {
   console.log("server is running");
 });

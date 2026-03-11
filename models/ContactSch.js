@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const contactschema = new mongoose.Schema({
   fullname: { type: String, required: true },
@@ -11,4 +11,6 @@ const contactschema = new mongoose.Schema({
   imageId: String,
 });
 
-module.exports = mongoose.model("contact", contactschema);
+const Contact = mongoose.model("contact", contactschema);
+
+export default Contact;
